@@ -1,5 +1,5 @@
 ---
-title: "Variations in the Rate of Adoption of Mental Health Care Between Provinces During the COVID-19 Pandemic Indicate Varying Preferences for Delivery of Care"
+title: "Variations in Adoption Rates of Virtual Mental Health Care Between Provinces During the COVID-19 Pandemic Indicate Differing Preferences for Delivery of Care"
 author: 
   - Chloe Thierstein
 thanks: "Code and data are available at: https://github.com/cthierst/shift_to_virtual_care_analysis-.git"
