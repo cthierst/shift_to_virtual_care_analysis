@@ -16,6 +16,11 @@ bibliography: references.bib
 
 # Data {#sec-data}
 
+## Data Management {#sec-first-point}
+
+This paper utilizes the R statistical programming language [@citeR], along with several packages, tidyverse [@citetidyverse], here [@citehere], janitor [@citejanitor], and dplyr [@citedplyr]. All figures in this paper have been created using the packages ggplot2 [@citeggplot2] and the tables have been created using knitr [@citeknitr] and kableExtra [@citekablextra]. The color styles in graphs have been created using the RColorBrewer packages [@citercolorbrewer].
+
+
 # Model {#sec-model}
 
 # Results {#sec-results}
