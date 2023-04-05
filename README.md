@@ -1,4 +1,4 @@
-# The Shift to Virtual Care for Mental Health Care Varies Significantly Between Provinces Despite Pandemic Conditions
+# Variations in Adoption Rates of Virtual Mental Health Care Between Provinces During the COVID-19 Pandemic Indicate Differing Preferences for Delivery of Care
 
 ## Overview
 
