@@ -37,3 +37,7 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# Original Data from the Canadian Institute for Health Information https://www.cihi.ca/en/topics/health-equity-and-population-health/data-tables?keyword=virtual&acronyms_databases=All&sort_by=field_published_date_value&items_per_page=10
+data/
+
