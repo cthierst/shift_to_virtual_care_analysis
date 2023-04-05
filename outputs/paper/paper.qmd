@@ -1,0 +1,47 @@
+---
+title: "My title"
+subtitle: "My subtitle if needed"
+author: 
+  - Chloe Thierstein
+thanks: "Code and data are available at: LINK."
+date: "`r Sys.time()`"
+date-format: "D MMMM YYYY"
+abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+format: pdf
+number-sections: true
+bibliography: references.bib
+---
+
+```{r}
+#| include: false
+#| warning: false
+#| message: false
+
+library(tidyverse)
+
+```
+
+
+# Introduction
+
+# Data {#sec-data}
+
+# Model
+
+# Results
+
+# Discussion
+
+## Weaknesses and next steps
+
+\newpage
+
+\appendix
+
+# Appendix {-}
+
+\newpage
+
+# References
+
+

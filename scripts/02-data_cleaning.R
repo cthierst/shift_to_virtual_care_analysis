@@ -1,0 +1,68 @@
+#### Preamble ####
+# Purpose: Downloads and saves the data from [...UPDATE THIS...]
+# Author: Chloe Thierstein 
+# Date: 3 April 2023 
+# Contact: chloe.thierstein@mail.utoronto.ca 
+# License: MIT
+# Pre-requisites: [...UPDATE THIS...]
+# Any other information needed? [...UPDATE THIS...]
+
+
+#### Workspace setup ####
+library(tidyverse)
+library(janitor)
+library(dplyr)
+library(here)
+
+#### Clean data ####
+
+shift_virtual_care_clean_data <- read.csv(here::here("./inputs/data/shift_virtual_care_raw_data.csv"))
+
+#### Cleaning column names ####
+
+names(shift_virtual_care_clean_data)[1] <- "Fiscal Year"
+
+names(shift_virtual_care_clean_data)[2] <- "Fiscal Quarter"
+
+names(shift_virtual_care_clean_data)[3] <- "Jurisdiction"
+
+names(shift_virtual_care_clean_data)[4] <- "Physician Specialty"
+
+names(shift_virtual_care_clean_data)[5] <- "Sex"
+
+names(shift_virtual_care_clean_data)[6] <- "Age Group"
+
+names(shift_virtual_care_clean_data)[7] <- "Income Quintile"
+
+names(shift_virtual_care_clean_data)[8] <- "Urban or Rural/Remote Neighbourhood"
+
+names(shift_virtual_care_clean_data)[9] <- "Modality"
+
+names(shift_virtual_care_clean_data)[10] <- "Number of Patients"
+
+names(shift_virtual_care_clean_data)[11] <- "Number of Services"
+
+names(shift_virtual_care_clean_data)[12] <- "Total Payments"
+
+#### Removing NA rows ####
+
+shift_virtual_care_clean_data <- 
+  shift_virtual_care_clean_data |>
+  na.omit(datacollected) 
+
+#### Removing extra "title" row ####
+
+shift_virtual_care_clean_data <- shift_virtual_care_clean_data[-c(2),] 
+
+#### Cleaning names ####
+
+shift_virtual_care_clean_data <- 
+  clean_names(shift_virtual_care_clean_data)
+
+
+
+#### Save data ####
+# [...UPDATE THIS...]
+# change cleaned_data to whatever name you end up with at the end of cleaning
+write_csv(shift_to_virtual_care_clean_data, "inputs/data/shift_to_virtual_care_clean_data.csv")
+
