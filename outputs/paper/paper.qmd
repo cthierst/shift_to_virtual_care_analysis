@@ -1,26 +1,17 @@
 ---
-title: "My title"
-subtitle: "My subtitle if needed"
+title: "The Shift to Virtual Care for Mental Health Care Varies Signficantly Between Provinces Despite Pandemic Conditions"
 author: 
   - Chloe Thierstein
 thanks: "Code and data are available at: LINK."
 date: "`r Sys.time()`"
 date-format: "D MMMM YYYY"
-abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+abstract: "The shift from in-person to virtual care "
+
+Despite the COVID-19 pandemic and restrictions in visiting health professionals in person, "
 format: pdf
 number-sections: true
 bibliography: references.bib
 ---
-
-```{r}
-#| include: false
-#| warning: false
-#| message: false
-
-library(tidyverse)
-
-```
-
 
 # Introduction
 
