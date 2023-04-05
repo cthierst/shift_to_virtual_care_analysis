@@ -5,10 +5,9 @@ author:
 thanks: "Code and data are available at: https://github.com/cthierst/shift_to_virtual_care_analysis-.git"
 date: "`r Sys.time()`"
 date-format: "D MMMM YYYY"
-abstract: "The shift from in-person to virtual care "
-
-Despite the COVID-19 pandemic and restrictions in visiting health professionals in person, "
+abstract: "Accessing mental health services during the COVID-19 pandemic presented a dilemma for those seeking care in Canda. This paper examines existing literature on the quality of virtual and in-person mental health services in Canada. It also analyzes data from the Canadian Institute of Health Information to draw conclusions on the rate of adoption of virtual mental health care during the pandemic. Based on this evidence, it was found that there is a large variation in the rate of adoption between provinces, suggesting that residents of each province may maintain general preferences for delivery of care."
 format: pdf
+toc: TRUE
 number-sections: true
 bibliography: references.bib
 ---
@@ -17,22 +16,20 @@ bibliography: references.bib
 
 # Data {#sec-data}
 
-# Model
+# Model {#sec-model}
 
-# Results
+# Results {#sec-results}
 
-# Discussion
-
-## Weaknesses and next steps
+# Discussion {#sec-discussion}
 
 \newpage
 
 \appendix
 
-# Appendix {-}
+# Appendix {#sec-appendix}
 
 \newpage
 
-# References
+# References 
 
 
