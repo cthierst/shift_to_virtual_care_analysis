@@ -14,12 +14,17 @@ bibliography: references.bib
 
 # Introduction
 
+The COVID-19 pandemic introduced many measures that, while proving successful in decreasing the transmission of COVID-19, did lead to a significant and quick increase in mental health crises for Canadians. While many in-person services transitioned to being facilitated online, many were suspended [@citerichardson]. Leading to fewer services being available for a much greater demand. Calls for expanding asynchronous virtual mental health (AVMH) resources became prominent as many argue that their implementation would provide excellent support for those coping with adverse mental health issues due to the pandemic [@citerichardson]. However, research demonstrates that despite efforts to promote these services, they have yet to be accessed effectively [@citerichardson]. The data came from the Canadian Institute of Health Information and is used to examine the relationships between the province, age, modality, fiscal quarter and the number of services over two periods, 2019-2020 and 2020-2021. This analysis allows us to explore how provincial regulations and policy influence adoption rates of virtual mental health services.
+
+A top insight found was that despite all provinces citing significant concerns over mental health during the pandemic, rates at which these services were accessed remained relatively low overall, with some provinces, like Alberta, maintaining higher levels of in-person services despite restrictions due to the pandemic. This finding suggests that virtual mental health care adoption varies significantly by province based on provincial regulation and policy and may be impacted by general public sentiment. Additionally, it was found that the adoption rate was inconsistent across fiscal quarters, with many provinces having extreme variations in virtual mental health care rates between quarters. 
+
+Examining this data allows us to develop further insight into the effects of provincial regulations and policy on the implementation of evolving mental health care treatment during a unique period, such as the COVID-19 pandemic.
+
 # Data {#sec-data}
 
 ## Data Management {#sec-first-point}
 
-This paper utilizes the R statistical programming language [@citeR], along with several packages, tidyverse [@citetidyverse], here [@citehere], janitor [@citejanitor], and dplyr [@citedplyr]. All figures in this paper have been created using the packages ggplot2 [@citeggplot2] and the tables have been created using knitr [@citeknitr] and kableExtra [@citekablextra]. The color styles in graphs have been created using the RColorBrewer packages [@citercolorbrewer].
-
+This paper utilizes the R statistical programming language [@citeR].
 
 # Model {#sec-model}
 
