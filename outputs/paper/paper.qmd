@@ -2,7 +2,7 @@
 title: "The Shift to Virtual Care for Mental Health Care Varies Signficantly Between Provinces Despite Pandemic Conditions"
 author: 
   - Chloe Thierstein
-thanks: "Code and data are available at: LINK."
+thanks: "Code and data are available at: https://github.com/cthierst/shift_to_virtual_care_analysis-.git"
 date: "`r Sys.time()`"
 date-format: "D MMMM YYYY"
 abstract: "The shift from in-person to virtual care "
